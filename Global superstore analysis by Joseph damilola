@@ -1,0 +1,144 @@
+A step-by-step documentation for the analysis:
+
+Documentation by Joseph Damilola
+
+
+As a data analyst, I was tasked with analyzing the sales data of Global Superstore for the year 2014. The objective was to identify key trends, profitable countries and products, and areas for improvement.
+
+Here's a detailed step-by-step guide for the Global Superstore Sales Data Analysis (2014):
+
+*Question 1: Highest Total Profit Countries and Products*
+
+*Step 1: Filtering Data by Year (2014)*
+
+- Open the sales data file in your preferred data analysis tool (e.g., Excel, Tableau).
+- Select the "Year" column and filter the data to only include 2014.
+
+*Step 2: Aggregate Total Profit by Country*
+
+- Select the "Country" and "Profit" columns.
+- Using the SUMIF function (or equivalent) to calculate the total profit for each country.
+
+*Step 3: Ranking Countries by Total Profit*
+
+- Sorting the countries by total profit in descending order.
+- Identify the top 3 countries with the highest total profit.
+
+*Step 4: Filtering Data by Country and Aggregate Total Profit by Product*
+
+- Select the top 3 countries and filter the data to only include those countries.
+- Select the "Product" and "Profit" columns.
+- Use the SUMIF function (or equivalent) to calculate the total profit for each product within each country.
+
+*Step 5: Identifying Top 3 Products for Each Country*
+
+- Sort the products by total profit in descending order for each country.
+- Identify the top 3 products for each country.
+
+*which are :*
+
+USA
+
+india
+
+china
+
+*Question 2: Subcategories with Highest Average Shipping Cost (USA)*
+
+*Step 1: Filter Data by Country (USA)*
+
+- Select the "Country" column and filter the data to only include the USA.
+
+*Step 2: Calculate Average Shipping Cost for Each Subcategory*
+
+- Select the "Subcategory" and "Shipping Cost" columns.
+- Use the AVERAGEIF function (or equivalent) to calculate the average shipping cost for each subcategory.
+
+*Step 3: Rank Subcategories by Average Shipping Cost*
+
+- Sort the subcategories by average shipping cost in descending order.
+- Identify the top 3 subcategories with the highest average shipping cost.
+
+Which are:
+
+1. Copiers ($165.2887338)
+2. Machines ($132.2453609)
+3. Tables ($69.95)
+
+*Question 3: Nigeria's Profitability (2014)*
+
+*Step 1: Filter Data by Country (Nigeria) and Year (2014)*
+
+- Select the "Country" and "Year" columns and filter the data to only include Nigeria and 2014.
+
+*Step 2: Calculate Total Profit for Nigeria*
+
+- Select the "Profit" column and calculate the total profit for Nigeria.
+
+*Step 3: Compare Nigeria's Profitability to Other African Countries*
+
+- Select the "Country" and "Profit" columns.
+- Use the SUMIF function (or equivalent) to calculate the total profit for each African country.
+- Compare Nigeria's profitability to other African countries.
+
+which are:
+
+Nigeria's total profit: $-23285.19
+
+*Question 4: Least Profitable Subcategory in Southeast Asia*
+
+*Step 1: Filter Data by Region (Southeast Asia)*
+
+- Select the "Region" column and filter the data to only include Southeast Asia.
+
+*Step 2: Calculate Total Profit for Each Subcategory*
+
+- Select the "Subcategory" and "Profit" columns.
+- Use the SUMIF function (or equivalent) to calculate the total profit for each subcategory.
+
+*Step 3: Rank Subcategories by Total Profit*
+
+- Sort the subcategories by total profit in ascending order.
+- Identify the least profitable subcategory.
+
+Which is:
+Tables (-$18618.3051)
+
+*Question 5: Least Profitable City in the United States*
+
+*Step 1: Filter Data by Country (USA)*
+
+- Select the "Country" column and filter the data to only include the USA.
+
+*Step 2: Calculate Average Profit for Each City*
+
+- Select the "City" and "Profit" columns.
+- Use the AVERAGEIF function (or equivalent) to calculate the average profit for each city.
+
+*Step 3: Rank Cities by Average Profit*
+
+- Sort the cities by average profit in ascending order.
+- Identify the least profitable city.
+
+Which is: 
+Bethlehem (-200.61916)
+
+_Question 6: Product Subcategory with Highest Average Profit (Australia)_
+
+_Step 2: Calculate Average Profit for Each Subcategory_
+
+- Use the AVERAGEIF function (or equivalent) to calculate the average profit for each subcategory.
+
+_Step 3: Rank Subcategories by Average Profit_
+
+- Sort the subcategories by average profit in descending order.
+- Identify the top subcategory with the highest average profit.
+
+which is:
+
+Appliances ($139.0148242)
+
+_Conclusion:_
+
+This analysis provides valuable insights into Global Superstore's sales data for 2014.
+
